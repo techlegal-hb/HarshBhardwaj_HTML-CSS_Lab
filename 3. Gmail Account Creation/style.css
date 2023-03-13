@@ -1,0 +1,55 @@
+body {
+    background-image: url("picture_1.jpg");
+    background-color: #4682B4;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+
+}
+
+div {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    min-width: 350px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+
+}
+
+input {
+    width: 300px;
+    min-width: 100px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input:focus {
+    outline: none;
+    color: #ffffff;
+    background-color: #cac6c0;
+}
+
+button {
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background-color: #AF66F3;
+}
